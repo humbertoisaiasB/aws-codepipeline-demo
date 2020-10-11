@@ -22,6 +22,5 @@ phases:
       - yarn build
 artifacts:
   files:
-    - "client/*"
-  discard-paths: no
-  base-directory: dist
+    - "*/package.json"
+  base-directory: client
